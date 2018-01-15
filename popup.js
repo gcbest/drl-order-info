@@ -12,7 +12,7 @@ function generateFakeData() {
     firstName: faker.name.firstName(),
     lastName: faker.name.lastName(),
     address1: faker.address.streetAddress(),
-    phone1: faker.phone.phoneNumber(),
+    phone1: faker.phone.phoneNumberFormat(),
     sku: faker.random.number(),
     itemName: faker.company.bsBuzz()
   }
