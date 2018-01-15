@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Fake Order",
+  "description": "Create Fake Order Data",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "deliveright_icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Fill Order Info"
+  },
+  "icons": {
+    "256": "deliveright_icon.png"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
